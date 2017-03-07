@@ -171,4 +171,3 @@ parse_interval_test_() ->
       ?_assertMatch([{{Y1, M1, D}, {H, _, _}}],
                      F("P1Y1M0DT0H0M"))}
                      ].
-%TODO test Repeat/duration
